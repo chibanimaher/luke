@@ -1,0 +1,126 @@
+[logs/Android_Samsung Galaxy S20 Plus INFO ] 2022-01-19 09:15:55.390 BaseTest:195 - log path: logs/Android_Samsung Galaxy S20 Plus
+[logs/Android_Samsung Galaxy S20 Plus INFO ] 2022-01-19 09:15:55.410 BaseTest:202 - load config.properties
+[logs/Android_Samsung Galaxy S20 Plus INFO ] 2022-01-19 09:15:55.448 BaseTest:207 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S20 Plus FATAL] 2022-01-19 09:15:57.460 BaseTest:248 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: [BROWSERSTACK_INVALID_OS_VERSION] OS version 9.0 is not supported for device samsung galaxy s20 plus. Supported OS versions for device samsung galaxy s20 plus are: 10.0. To know more, refer to our capability builder - https://www.browserstack.com/app-automate/capabilities (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.26 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:c49b:e7d0:a551:f123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:c49b:e7d0:a551:f123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Samsung Galaxy S20 Plus ERROR] 2022-01-19 09:15:57.588 TestListener:40 - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.qa.BasePage.<init>(BasePage.java:44)
+	at com.qa.pages.PageConfiguration.<init>(PageConfiguration.java:16)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:90)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[logs/Android_Samsung Galaxy S20 Plus INFO ] 2022-01-19 09:16:22.451 BaseTest:195 - log path: logs/Android_Samsung Galaxy S20 Plus
+[logs/Android_Samsung Galaxy S20 Plus INFO ] 2022-01-19 09:16:22.462 BaseTest:202 - load config.properties
+[logs/Android_Samsung Galaxy S20 Plus INFO ] 2022-01-19 09:16:22.515 BaseTest:207 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S20 Plus FATAL] 2022-01-19 09:16:24.700 BaseTest:248 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: [BROWSERSTACK_INVALID_OS_VERSION] OS version 9.0 is not supported for device samsung galaxy s20 plus. Supported OS versions for device samsung galaxy s20 plus are: 10.0. To know more, refer to our capability builder - https://www.browserstack.com/app-automate/capabilities (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.39 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:c49b:e7d0:a551:f123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:c49b:e7d0:a551:f123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Samsung Galaxy S20 Plus ERROR] 2022-01-19 09:16:24.804 TestListener:40 - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.qa.BasePage.<init>(BasePage.java:44)
+	at com.qa.pages.PageConfiguration.<init>(PageConfiguration.java:16)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:90)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[logs/Android_Samsung Galaxy S20 Plus INFO ] 2022-01-19 09:23:26.142 BaseTest:195 - log path: logs/Android_Samsung Galaxy S20 Plus
+[logs/Android_Samsung Galaxy S20 Plus INFO ] 2022-01-19 09:23:26.177 BaseTest:202 - load config.properties
+[logs/Android_Samsung Galaxy S20 Plus INFO ] 2022-01-19 09:23:26.201 BaseTest:207 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S20 Plus FATAL] 2022-01-19 09:23:28.372 BaseTest:248 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: [BROWSERSTACK_INVALID_OS_VERSION] OS version 9.0 is not supported for device samsung galaxy s20 plus. Supported OS versions for device samsung galaxy s20 plus are: 10.0. To know more, refer to our capability builder - https://www.browserstack.com/app-automate/capabilities (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.49 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:c49b:e7d0:a551:f123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:c49b:e7d0:a551:f123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Samsung Galaxy S20 Plus ERROR] 2022-01-19 09:23:28.448 TestListener:40 - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.qa.BasePage.<init>(BasePage.java:44)
+	at com.qa.pages.PageConfiguration.<init>(PageConfiguration.java:16)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:90)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+

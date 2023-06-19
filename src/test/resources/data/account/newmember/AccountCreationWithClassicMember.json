@@ -1,0 +1,34 @@
+{
+	"en": {
+		"destination": "Paris",
+		"destinationiOS":"Paris",
+		"destination_country":"France",
+		"dateIn": "+1DAY",
+		"dateOut": "+2DAY",
+		"dateFormat":"dd/MM/yyyy",
+		"adultCount":"1",
+		"childrenCount":"1",
+		"oldChildren1":"1 year old",
+		"guestTitle": "Title",
+		"guestFirstName": "First name",
+		"guestLastName": "Surname",
+		"guestCountry":"France",
+		"guestNationality": "French",
+		"guestMobileCountry": "France",
+		"guestPhoneNumber": "762719111",
+		"guestEmail": "hafedh.saddouki@consulting-fr.accor.com",
+		"cardType": "Visa",
+		"cardCVC": "123",
+		"cardNumber": "4111111111111111",
+		"cardHolderName": "Payment",
+		"cardExpiration": "12/23/2023",
+		"cardExpirationMonth": "12",
+		"cardExpirationYear": "23",
+		"cardExpirationYearIOS": "2023",
+		"userEmail": "qa_classic@yopmail.com",
+		"userPassword": "Password1",
+		"status":"Classic"
+
+		
+}
+}

@@ -1,0 +1,20 @@
+{
+    "en": {
+      
+        
+        "guestEmail": "qa_classic@yopmail.com",
+        "userEmail":"qa_classic@yopmail.com",
+        "userPassword":"Password1",
+        "emailAdress":"qa_classic@yopmail.com",
+        "currency":"US Dollar",
+        "destination":"marseille",
+        "destinationiOS":"marseille",
+        "currencyPrice":"US",
+         "phoneNumber":"0751221266",
+         "currencyBooking":"US",
+         "guestCountryRegion":"France"
+        
+         
+        
+}
+}

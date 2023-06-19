@@ -1,0 +1,577 @@
+[logs/Android_Samsung S10 INFO ] 2021-12-26 11:56:52.450 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 11:56:52.457 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 11:56:52.460 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 11:56:52.468 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 11:57:02.955 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 ERROR] 2021-12-26 11:58:36.284 TestListener:37 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.accor.appli.hybrid.inhouse:id/autoCompleteTextView (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndClick(BasePage.java:42)
+	at com.qa.pages.PagePayement.Payement(PagePayement.java:37)
+	at com.qa.tests.Account.DashbordSilverUser(Account.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:ff:b1de:bd3b:ec9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/maher/Desktop/Appium..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, databaseEnabled: false, desired: {app: /Users/maher/Desktop/Appium..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, deviceName: Samsung S10, platformName: android, systemPort: 10000, udid: R58M21E51VW}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G975F, deviceName: R58M21E51VW, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R58M21E51VW, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 110, systemPort: 10000, takesScreenshot: true, udid: R58M21E51VW, viewportRect: {height: 1937, left: 0, top: 110, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 136d68c6-c67f-466e-9388-e4805931386a
+*** Element info: {Using=id, value=com.accor.appli.hybrid.inhouse:id/autoCompleteTextView}
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+
+[logs/Android_Samsung S10 INFO ] 2021-12-26 11:58:49.428 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-11-56-52/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 ERROR] 2021-12-26 11:59:12.197 TestListener:37 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.FrameLayout[@content-desc="Account"]/android.view.ViewGroup/android.widget.TextView (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndClick(BasePage.java:42)
+	at com.qa.pages.PageConfiguration.connexionOrDeconnexion(PageConfiguration.java:45)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:83)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:569)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:ff:b1de:bd3b:ec9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/maher/Desktop/Appium..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, databaseEnabled: false, desired: {app: /Users/maher/Desktop/Appium..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, deviceName: Samsung S10, platformName: android, systemPort: 10000, udid: R58M21E51VW}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G975F, deviceName: R58M21E51VW, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R58M21E51VW, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 110, systemPort: 10000, takesScreenshot: true, udid: R58M21E51VW, viewportRect: {height: 1937, left: 0, top: 110, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 136d68c6-c67f-466e-9388-e4805931386a
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout[@content-desc="Account"]/android.view.ViewGroup/android.widget.TextView}
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 23 more
+
+[logs/Android_Samsung S10 INFO ] 2021-12-26 11:59:16.756 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-11-56-52/Search/inApp.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:00:15.192 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:00:15.198 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:00:15.200 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:00:15.208 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:00:22.499 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:02:04.262 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-00-15/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 ERROR] 2021-12-26 12:02:26.675 TestListener:37 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.FrameLayout[@content-desc="Account"]/android.view.ViewGroup/android.widget.TextView (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndClick(BasePage.java:42)
+	at com.qa.pages.PageConfiguration.connexionOrDeconnexion(PageConfiguration.java:45)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:83)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:569)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:ff:b1de:bd3b:ec9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/maher/Desktop/Appium..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, databaseEnabled: false, desired: {app: /Users/maher/Desktop/Appium..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, deviceName: Samsung S10, platformName: android, systemPort: 10000, udid: R58M21E51VW}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G975F, deviceName: R58M21E51VW, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R58M21E51VW, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 110, systemPort: 10000, takesScreenshot: true, udid: R58M21E51VW, viewportRect: {height: 1937, left: 0, top: 110, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 108a2b08-91b5-4927-9e1c-fa95d83591a2
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout[@content-desc="Account"]/android.view.ViewGroup/android.widget.TextView}
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 23 more
+
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:02:31.028 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-00-15/Search/inApp.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:03:47.505 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:03:47.511 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:03:47.513 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:03:47.523 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:03:54.590 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:05:34.467 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-03-47/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:07:15.149 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-03-47/Search/inApp.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:20:41.169 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:20:41.174 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:20:41.178 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:20:41.188 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:20:49.846 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 ERROR] 2021-12-26 12:21:20.037 TestListener:37 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.accor.appli.hybrid.inhouse:id/logInButton (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndClick(BasePage.java:42)
+	at com.qa.pages.PageLogin.clickLogin(PageLogin.java:34)
+	at com.qa.tests.Account.DashbordSilverUser(Account.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:ff:b1de:bd3b:ec9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/maher/Desktop/Appium..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, databaseEnabled: false, desired: {app: /Users/maher/Desktop/Appium..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, deviceName: Samsung S10, platformName: android, systemPort: 10000, udid: R58M21E51VW}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G975F, deviceName: R58M21E51VW, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R58M21E51VW, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 110, systemPort: 10000, takesScreenshot: true, udid: R58M21E51VW, viewportRect: {height: 1937, left: 0, top: 110, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2191f01c-7bbb-4811-a4cd-5f0b7ebfd91f
+*** Element info: {Using=id, value=com.accor.appli.hybrid.inhouse:id/logInButton}
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:21:24.432 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-20-41/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:23:06.288 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:23:06.294 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:23:06.296 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:23:06.306 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:23:13.824 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 ERROR] 2021-12-26 12:23:50.022 TestListener:37 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.accor.appli.hybrid.inhouse:id/searchButton (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndClick(BasePage.java:42)
+	at com.qa.pages.PageHome.chooseHotel(PageHome.java:41)
+	at com.qa.tests.Account.DashbordSilverUser(Account.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:ff:b1de:bd3b:ec9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/maher/Desktop/Appium..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, databaseEnabled: false, desired: {app: /Users/maher/Desktop/Appium..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, deviceName: Samsung S10, platformName: android, systemPort: 10000, udid: R58M21E51VW}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G975F, deviceName: R58M21E51VW, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R58M21E51VW, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 110, systemPort: 10000, takesScreenshot: true, udid: R58M21E51VW, viewportRect: {height: 1937, left: 0, top: 110, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e7805d4e-e910-4283-b1db-136e11547856
+*** Element info: {Using=id, value=com.accor.appli.hybrid.inhouse:id/searchButton}
+	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:23:54.136 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-23-06/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:25:22.745 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:25:22.750 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:25:22.753 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:25:22.762 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:25:30.008 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:25:48.318 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-25-22/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:26:43.278 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:26:43.285 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:26:43.291 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:26:43.303 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:26:50.902 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:27:09.624 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-26-43/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:28:35.120 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:28:35.126 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:28:35.129 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:28:35.138 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:28:42.755 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 ERROR] 2021-12-26 12:29:19.128 TestListener:37 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.accor.appli.hybrid.inhouse:id/logInButton (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndClick(BasePage.java:42)
+	at com.qa.pages.PageLogin.clickLogin(PageLogin.java:41)
+	at com.qa.tests.Account.DashbordSilverUser(Account.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:ff:b1de:bd3b:ec9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/maher/Desktop/Appium..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, databaseEnabled: false, desired: {app: /Users/maher/Desktop/Appium..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, deviceName: Samsung S10, platformName: android, systemPort: 10000, udid: R58M21E51VW}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G975F, deviceName: R58M21E51VW, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R58M21E51VW, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 110, systemPort: 10000, takesScreenshot: true, udid: R58M21E51VW, viewportRect: {height: 1937, left: 0, top: 110, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 22f927ed-9608-48f6-88a7-1c76d048f286
+*** Element info: {Using=id, value=com.accor.appli.hybrid.inhouse:id/logInButton}
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:29:23.515 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-28-35/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:32:13.437 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:32:13.448 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:32:13.454 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:32:13.469 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:32:21.916 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:32:41.473 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-32-13/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:38:24.283 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:38:24.288 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:38:24.291 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:38:24.303 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:38:32.837 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:38:58.149 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-38-24/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:49:36.237 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:49:36.247 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:49:36.251 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:49:36.269 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:49:44.828 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:50:10.489 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-49-36/Account/DashbordPlatinumuser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:50:33.714 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-49-36/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:55:40.176 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:55:40.182 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:55:40.186 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:55:40.195 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:55:47.069 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:56:13.062 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-55-40/Account/DashbordGoldUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:56:35.272 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-55-40/Account/DashbordPlatinumuser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 12:56:58.309 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-12-55-40/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:05:15.885 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:05:15.891 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:05:15.893 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:05:15.907 BaseTest:246 - appUrl is/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:05:24.339 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AppiumTest/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:05:48.989 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-05-15/Account/DashbordClassicUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:06:12.369 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-05-15/Account/DashbordGoldUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:06:34.966 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-05-15/Account/DashbordPlatinumuser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:06:58.358 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-05-15/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:22:03.139 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:22:03.147 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:22:03.151 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:22:03.160 BaseTest:246 - appUrl is/Users/maher/Desktop/AccorAutomationMobile/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:22:11.994 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AccorAutomationMobile/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AccorAutomationMobile/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:22:36.228 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-22-03/Account/DashbordClassicUser.mp4
+[logs/Android_Samsung S10 ERROR] 2021-12-26 13:23:05.936 TestListener:37 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.FrameLayout[@content-desc="Account"]/android.view.ViewGroup/android.widget.TextView (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndClick(BasePage.java:42)
+	at com.qa.pages.PageLogin.loginWithGoldAccount(PageLogin.java:67)
+	at com.qa.tests.Account.DashbordGoldUser(Account.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:ff:b1de:bd3b:ec9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/maher/Desktop/AccorA..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, databaseEnabled: false, desired: {app: /Users/maher/Desktop/AccorA..., appActivity: com.accor.app.debug.DebugAc..., appPackage: com.accor.appli.hybrid.inhouse, automationName: UiAutomator2, chromeDriverPort: 11001, deviceName: Samsung S10, platformName: android, systemPort: 10000, udid: R58M21E51VW}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G975F, deviceName: R58M21E51VW, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R58M21E51VW, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 110, systemPort: 10000, takesScreenshot: true, udid: R58M21E51VW, viewportRect: {height: 1937, left: 0, top: 110, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 85e514ec-5a2b-45d6-b5b3-2124e9d96263
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout[@content-desc="Account"]/android.view.ViewGroup/android.widget.TextView}
+	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:23:13.698 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-22-03/Account/DashbordGoldUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:23:37.249 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-22-03/Account/DashbordPartnerAdvantagePlusUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:24:00.194 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-22-03/Account/DashbordPlatinumuser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:24:23.418 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-22-03/Account/DashbordSilverUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:29:35.346 BaseTest:210 - log path: logs/Android_Samsung S10
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:29:35.356 BaseTest:217 - load config.properties
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:29:35.360 BaseTest:222 - load strings/strings.xml
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:29:35.374 BaseTest:246 - appUrl is/Users/maher/Desktop/AccorAutomationMobile/src/test/resources/app/AccorAll_9_54_21121005.apk
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:29:43.093 BaseTest:268 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=/Users/maher/Desktop/AccorAutomationMobile/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, chromeDriverPort=11001, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11001, app=/Users/maher/Desktop/AccorAutomationMobile/src/test/resources/app/AccorAll_9_54_21121005.apk, appActivity=com.accor.app.debug.DebugActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=UiAutomator2, deviceName=Samsung S10, systemPort=10000, udid=R58M21E51VW}, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M21E51VW, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M21E51VW, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.625, platform=LINUX, platformName=Android, platformVersion=9, statBarHeight=110, systemPort=10000, takesScreenshot=true, udid=R58M21E51VW, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:30:06.984 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-29-35/Account/DashbordClassicUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:30:29.820 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-29-35/Account/DashbordGoldUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:30:52.994 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-29-35/Account/DashbordPartnerAdvantagePlusUser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:31:15.770 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-29-35/Account/DashbordPlatinumuser.mp4
+[logs/Android_Samsung S10 INFO ] 2021-12-26 13:31:38.656 BaseTest:121 - video path: videos/Android_Samsung S10/2021-12-26-13-29-35/Account/DashbordSilverUser.mp4

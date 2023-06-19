@@ -1,0 +1,18 @@
+{
+	"en": {
+		"destination": "London",
+		"destination2": "Paris",
+		"destinationiOS":"Paris",
+		"destination_country":"UK",
+		"dateIn": "+1DAY",
+		"dateOut": "+2DAY",
+		"dateFormat":"dd/MM/yyyy",
+		"adultCount":"1",
+		"userEmail": "demandeappgold@yopmail.com",
+		"userPassword": "passwd1",
+		"map_card_label":"Accor Privileged Partners"
+		
+
+		
+}
+}

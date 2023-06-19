@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="com.qa.listeners.TestListener" />
+	</listeners>
+
+	<test thread-count="5" parallel="tests" name="Test1">
+		<parameter name="platformName" value="Android" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="TNRTest" />
+		<parameter name="device" value="Samsung Galaxy S9 Plus" />
+		<parameter name="os_version" value="9.0" />
+		<parameter name="project" value="CICD" />
+		<parameter name="build" value="New First Build" />
+		<parameter name="name" value="AutomationTest" />
+		<classes>
+			<class name="com.qa.tests.Home" />
+		</classes>
+	</test>
+	<test thread-count="5" parallel="tests" name="Test2">
+		<parameter name="platformName" value="Android" />
+		<parameter name="systemPort" value="10001" />
+		<parameter name="chromeDriverPort" value="TNRTest" />
+		<parameter name="device" value="Samsung Galaxy S10 Plus" />
+		<parameter name="os_version" value="9.0" />
+		<parameter name="project" value="CICD" />
+		<parameter name="build" value="New Second Build" />
+		<parameter name="name" value="AutomationTest" />
+		<classes>
+			<class name="com.qa.tests.Account" />
+		</classes>
+	</test>
+	<test thread-count="5" parallel="tests" name="Test3">
+		<parameter name="platformName" value="Android" />
+		<parameter name="systemPort" value="10001" />
+		<parameter name="chromeDriverPort" value="TNRTest" />
+		<parameter name="device" value="Samsung Galaxy A10" />
+		<parameter name="os_version" value="9.0" />
+		<parameter name="project" value="CICD" />
+		<parameter name="build" value="New Third Build" />
+		<parameter name="name" value="AutomationTest" />
+		<classes>
+			<class name="com.qa.tests.Summury" />
+		</classes>
+	</test>
+</suite>

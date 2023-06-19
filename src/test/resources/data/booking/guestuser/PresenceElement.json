@@ -1,0 +1,37 @@
+{
+    "en": {
+        "destination": "London",
+        "destinationiOS":"London",
+        "dateIn": "+1DAY",
+        "dateOut": "+2DAY",
+        "dateFormat":"dd/MM/yyyy",
+        "adultCount":"1",
+        "childrenCount":"1",
+        "oldChildren1":"1 year old",
+        "guestTitle": "Title",
+        "guestFirstName": "First name",
+        "guestLastName": "Surname",
+        "guestCountry":"France",
+        "nationality": "French",
+        "mobileCountry": "France",
+        "phoneNumber": "762719111",
+        "guestEmail": "qa_classic@yopmail.com",
+        "hotelName":"Sofitel London St James",
+        "dateStart":"Wed 3 Mar 2021",
+        "dateEnd":"Thu 4 Mar 2021",
+        "nightNumber":"1 nights",
+        "roomNumber":"2 rooms",
+        "breakfastIncluded":"Breakfast Not included",
+        "adultNumber":"4 adults",
+        "childrenNumber":"0 children",
+        "priceHotel":"€306.36",
+        "variousTaxe":"€21.66",
+        "packageOffer":"2 x Deluxe King",
+        "userEmail":"qa_classic@yopmail.com",
+        "userPassword":"Password1",
+        "emailAdress":"qa_classic@yopmail.com",
+        "guestCountryRegion":"France"
+
+        
+}
+}

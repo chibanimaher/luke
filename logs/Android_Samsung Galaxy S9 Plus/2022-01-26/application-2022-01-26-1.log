@@ -1,0 +1,440 @@
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-18 15:56:36.156 BaseTest:195 - log path: logs/Android_Samsung Galaxy S9 Plus
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-18 15:56:36.188 BaseTest:202 - load config.properties
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-18 15:56:36.195 BaseTest:207 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S9 Plus FATAL] 2022-01-18 15:56:37.968 BaseTest:248 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: [BROWSERSTACK_INVALID_APP_URL] The app_url specified in the 'app' capability in your test is invalid. Please specify a valid app_url that was returned in the response to upload app API request and try again. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.12 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:c49b:e7d0:a551:f123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:c49b:e7d0:a551:f123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Samsung Galaxy S9 Plus ERROR] 2022-01-18 15:56:38.085 TestListener:40 - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.qa.BasePage.<init>(BasePage.java:44)
+	at com.qa.pages.PageConfiguration.<init>(PageConfiguration.java:16)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:90)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-18 16:14:15.531 BaseTest:195 - log path: logs/Android_Samsung Galaxy S9 Plus
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-18 16:14:15.543 BaseTest:202 - load config.properties
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-18 16:14:15.552 BaseTest:207 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-18 16:14:56.679 BaseTest:246 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {64bit=false, acceptSslCert=false, acceptSslCerts=false, adbExecTimeout=120000, appActivity=com.accor.app.splashscreen.view.SplashScreenActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=uiautomator2, browserstack.appium_version=1.17.0, browserstack.is_hub_canary=false, browserstack.minOSVersion=5.0, buildName=New Build, bundleID=com.accor.appli.hybrid.inhouse, bundleId=com.accor.appli.hybrid.inhouse, chromeOptions={w3c=false}, chromedriverPort=18080, chromedriverPorts=[[18100, 18110]], databaseEnabled=false, detected_language=selenium/3.141.59 (java mac), device=samsung galaxy s9 plus, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G965F, deviceName=1afa1aa52b047ece, deviceScreenDensity=420, deviceScreenSize=1080x2220, deviceUDID=1afa1aa52b047ece, enablePerformanceLogging=false, javascriptEnabled=true, locationContextEnabled=false, mobile={browser=mobile, version=Samsung Galaxy S9 Plus-9.0}, nativeWebScreenshot=true, networkConnectionEnabled=true, newCommandTimeout=0, new_bucketing=true, orig_os=android, osVersion=9.0, os_version=9.0, pixelRatio=2.625, platform=ANDROID, platformName=Android, platformVersion=9, projectName=10000, realMobile=true, sessionName=11001, skipServerInstallation=true, statBarHeight=63, systemPort=8200, takesScreenshot=true, udid=1afa1aa52b047ece, uiautomator2ServerLaunchTimeout=60000, version=, viewportRect={left=0, top=63, width=1080, height=2031}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung Galaxy S9 Plus ERROR] 2022-01-18 16:19:31.651 TestListener:40 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.accor.appli.hybrid.inhouse:id/destinationTextField (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndClick(BasePage.java:48)
+	at com.qa.pages.PageTestConfirmation.paiementEnLigne(PageTestConfirmation.java:84)
+	at com.qa.tests.Confirmation.PaiementEnLigne(Confirmation.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:c49b:e7d0:a551:f123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: com.accor.app.splashscreen...., appPackage: com.accor.appli.hybrid.inhouse, automationName: uiautomator2, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 5.0, buildName: New Build, bundleID: com.accor.appli.hybrid.inhouse, bundleId: com.accor.appli.hybrid.inhouse, chromeOptions: {w3c: false}, chromedriverPort: 18080, chromedriverPorts: [[18100, 18110]], databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: samsung galaxy s9 plus, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 1afa1aa52b047ece, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: 1afa1aa52b047ece, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Samsung Galaxy S9 Plus-9.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 9.0, os_version: 9.0, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: 10000, realMobile: true, sessionName: 11001, skipServerInstallation: true, statBarHeight: 63, systemPort: 8200, takesScreenshot: true, udid: 1afa1aa52b047ece, uiautomator2ServerLaunchTimeout: 60000, version: , viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: eef89db2a89c068198bf27053187a5e078684aba
+*** Element info: {Using=id, value=com.accor.appli.hybrid.inhouse:id/destinationTextField}
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:15:55.390 BaseTest:195 - log path: logs/Android_Samsung Galaxy S9 Plus
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:15:55.416 BaseTest:202 - load config.properties
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:15:55.448 BaseTest:207 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:16:22.452 BaseTest:195 - log path: logs/Android_Samsung Galaxy S9 Plus
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:16:22.476 BaseTest:202 - load config.properties
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:16:22.522 BaseTest:207 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:16:31.219 BaseTest:246 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {64bit=false, acceptSslCert=false, acceptSslCerts=false, adbExecTimeout=120000, appActivity=com.accor.app.splashscreen.view.SplashScreenActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=uiautomator2, browserstack.appium_version=1.17.0, browserstack.is_hub_canary=false, browserstack.minOSVersion=5.0, buildName=New Build, bundleID=com.accor.appli.hybrid.inhouse, bundleId=com.accor.appli.hybrid.inhouse, chromeOptions={w3c=false}, chromedriverPort=18082, chromedriverPorts=[[18122, 18132]], databaseEnabled=false, detected_language=selenium/3.141.59 (java mac), device=samsung galaxy s9 plus, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G965F, deviceName=21b5abecc70d7ece, deviceScreenDensity=420, deviceScreenSize=1080x2220, deviceUDID=21b5abecc70d7ece, enablePerformanceLogging=false, javascriptEnabled=true, locationContextEnabled=false, mobile={browser=mobile, version=Samsung Galaxy S9 Plus-9.0}, nativeWebScreenshot=true, networkConnectionEnabled=true, newCommandTimeout=0, new_bucketing=true, orig_os=android, osVersion=9.0, os_version=9.0, pixelRatio=2.625, platform=ANDROID, platformName=Android, platformVersion=9, projectName=10000, realMobile=true, sessionName=Home, skipServerInstallation=true, statBarHeight=63, systemPort=8202, takesScreenshot=true, udid=21b5abecc70d7ece, uiautomator2ServerLaunchTimeout=60000, version=, viewportRect={left=0, top=63, width=1080, height=2031}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:16:59.634 BaseTest:246 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {64bit=false, acceptSslCert=false, acceptSslCerts=false, adbExecTimeout=120000, appActivity=com.accor.app.splashscreen.view.SplashScreenActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=uiautomator2, browserstack.appium_version=1.17.0, browserstack.is_hub_canary=false, browserstack.minOSVersion=5.0, buildName=New Build, bundleID=com.accor.appli.hybrid.inhouse, bundleId=com.accor.appli.hybrid.inhouse, chromeOptions={w3c=false}, chromedriverPort=18082, chromedriverPorts=[[18122, 18132]], databaseEnabled=false, detected_language=selenium/3.141.59 (java mac), device=samsung galaxy s9 plus, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G965F, deviceName=1cf85304fd0d7ece, deviceScreenDensity=420, deviceScreenSize=1080x2220, deviceUDID=1cf85304fd0d7ece, enablePerformanceLogging=false, javascriptEnabled=true, locationContextEnabled=false, mobile={browser=mobile, version=Samsung Galaxy S9 Plus-9.0}, nativeWebScreenshot=true, networkConnectionEnabled=true, newCommandTimeout=0, new_bucketing=true, orig_os=android, osVersion=9.0, os_version=9.0, pixelRatio=2.625, platform=ANDROID, platformName=Android, platformVersion=9, projectName=10000, realMobile=true, sessionName=Home, skipServerInstallation=true, statBarHeight=63, systemPort=8202, takesScreenshot=true, udid=1cf85304fd0d7ece, uiautomator2ServerLaunchTimeout=60000, version=, viewportRect={left=0, top=63, width=1080, height=2031}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung Galaxy S9 Plus ERROR] 2022-01-19 09:20:52.888 TestListener:40 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.accor.appli.hybrid.inhouse:id/destinationTextField (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndClick(BasePage.java:48)
+	at com.qa.pages.PageTestConfirmation.paiementEnLigne(PageTestConfirmation.java:84)
+	at com.qa.tests.Confirmation.PaiementEnLigne(Confirmation.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:c49b:e7d0:a551:f123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: com.accor.app.splashscreen...., appPackage: com.accor.appli.hybrid.inhouse, automationName: uiautomator2, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 5.0, buildName: New Build, bundleID: com.accor.appli.hybrid.inhouse, bundleId: com.accor.appli.hybrid.inhouse, chromeOptions: {w3c: false}, chromedriverPort: 18082, chromedriverPorts: [[18122, 18132]], databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: samsung galaxy s9 plus, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 21b5abecc70d7ece, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: 21b5abecc70d7ece, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Samsung Galaxy S9 Plus-9.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 9.0, os_version: 9.0, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: 10000, realMobile: true, sessionName: Home, skipServerInstallation: true, statBarHeight: 63, systemPort: 8202, takesScreenshot: true, udid: 21b5abecc70d7ece, uiautomator2ServerLaunchTimeout: 60000, version: , viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dd6169848c4f5f6387fe03fd3369726da39772ef
+*** Element info: {Using=id, value=com.accor.appli.hybrid.inhouse:id/destinationTextField}
+	at jdk.internal.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:23:26.143 BaseTest:195 - log path: logs/Android_Samsung Galaxy S9 Plus
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:23:26.167 BaseTest:202 - load config.properties
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:23:26.177 BaseTest:207 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:24:01.601 BaseTest:246 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {64bit=false, acceptSslCert=false, acceptSslCerts=false, adbExecTimeout=120000, appActivity=com.accor.app.splashscreen.view.SplashScreenActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=uiautomator2, browserstack.appium_version=1.17.0, browserstack.is_hub_canary=false, browserstack.minOSVersion=5.0, buildName=New Build, bundleID=com.accor.appli.hybrid.inhouse, bundleId=com.accor.appli.hybrid.inhouse, chromeOptions={w3c=false}, chromedriverPort=18080, chromedriverPorts=[[18100, 18110]], databaseEnabled=false, detected_language=selenium/3.141.59 (java mac), device=samsung galaxy s9 plus, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G965F, deviceName=21b433e04e0c7ece, deviceScreenDensity=420, deviceScreenSize=1080x2220, deviceUDID=21b433e04e0c7ece, enablePerformanceLogging=false, javascriptEnabled=true, locationContextEnabled=false, mobile={browser=mobile, version=Samsung Galaxy S9 Plus-9.0}, nativeWebScreenshot=true, networkConnectionEnabled=true, newCommandTimeout=0, new_bucketing=true, orig_os=android, osVersion=9.0, os_version=9.0, pixelRatio=2.625, platform=ANDROID, platformName=Android, platformVersion=9, projectName=10000, realMobile=true, sessionName=Home1, skipServerInstallation=true, statBarHeight=63, systemPort=8200, takesScreenshot=true, udid=21b433e04e0c7ece, uiautomator2ServerLaunchTimeout=60000, version=, viewportRect={left=0, top=63, width=1080, height=2031}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung Galaxy S9 Plus ERROR] 2022-01-19 09:28:28.894 TestListener:40 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.accor.appli.hybrid.inhouse:id/destinationTextField (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndClick(BasePage.java:48)
+	at com.qa.pages.PageTestConfirmation.paiementEnLigne(PageTestConfirmation.java:84)
+	at com.qa.tests.Confirmation.PaiementEnLigne(Confirmation.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:c49b:e7d0:a551:f123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: com.accor.app.splashscreen...., appPackage: com.accor.appli.hybrid.inhouse, automationName: uiautomator2, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 5.0, buildName: New Build, bundleID: com.accor.appli.hybrid.inhouse, bundleId: com.accor.appli.hybrid.inhouse, chromeOptions: {w3c: false}, chromedriverPort: 18080, chromedriverPorts: [[18100, 18110]], databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: samsung galaxy s9 plus, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 21b433e04e0c7ece, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: 21b433e04e0c7ece, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Samsung Galaxy S9 Plus-9.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 9.0, os_version: 9.0, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: 10000, realMobile: true, sessionName: Home1, skipServerInstallation: true, statBarHeight: 63, systemPort: 8200, takesScreenshot: true, udid: 21b433e04e0c7ece, uiautomator2ServerLaunchTimeout: 60000, version: , viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: aa07d4a3d406d63064485f2bcb33e33e44856f12
+*** Element info: {Using=id, value=com.accor.appli.hybrid.inhouse:id/destinationTextField}
+	at jdk.internal.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:43:34.381 BaseTest:195 - log path: logs/Android_Samsung Galaxy S9 Plus
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:43:34.394 BaseTest:202 - load config.properties
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:43:34.397 BaseTest:207 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-19 09:44:14.956 BaseTest:247 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {64bit=false, acceptSslCert=false, acceptSslCerts=false, adbExecTimeout=120000, appActivity=com.accor.app.splashscreen.view.SplashScreenActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=uiautomator2, browserstack.appium_version=1.17.0, browserstack.is_hub_canary=false, browserstack.minOSVersion=5.0, buildName=New Build, bundleID=com.accor.appli.hybrid.inhouse, bundleId=com.accor.appli.hybrid.inhouse, chromeOptions={w3c=false}, chromedriverPort=18082, chromedriverPorts=[[18122, 18132]], databaseEnabled=false, detected_language=selenium/3.141.59 (java mac), device=samsung galaxy s9 plus, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G965F, deviceName=1af800102a057ece, deviceScreenDensity=420, deviceScreenSize=1080x2220, deviceUDID=1af800102a057ece, enablePerformanceLogging=false, javascriptEnabled=true, locationContextEnabled=false, mobile={browser=mobile, version=Samsung Galaxy S9 Plus-9.0}, nativeWebScreenshot=true, networkConnectionEnabled=true, newCommandTimeout=0, new_bucketing=true, orig_os=android, osVersion=9.0, os_version=9.0, pixelRatio=2.625, platform=ANDROID, platformName=Android, platformVersion=9, projectName=10001, realMobile=true, sessionName=Home1, skipServerInstallation=true, statBarHeight=63, systemPort=8202, takesScreenshot=true, udid=1af800102a057ece, uiautomator2ServerLaunchTimeout=60000, version=, viewportRect={left=0, top=63, width=1080, height=2031}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung Galaxy S9 Plus ERROR] 2022-01-19 09:48:39.475 TestListener:40 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.accor.appli.hybrid.inhouse:id/destinationTextField (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndClick(BasePage.java:48)
+	at com.qa.pages.PageTestConfirmation.paiementEnLigne(PageTestConfirmation.java:84)
+	at com.qa.tests.Confirmation.PaiementEnLigne(Confirmation.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:c49b:e7d0:a551:f123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: com.accor.app.splashscreen...., appPackage: com.accor.appli.hybrid.inhouse, automationName: uiautomator2, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 5.0, buildName: New Build, bundleID: com.accor.appli.hybrid.inhouse, bundleId: com.accor.appli.hybrid.inhouse, chromeOptions: {w3c: false}, chromedriverPort: 18082, chromedriverPorts: [[18122, 18132]], databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: samsung galaxy s9 plus, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 1af800102a057ece, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: 1af800102a057ece, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Samsung Galaxy S9 Plus-9.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 9.0, os_version: 9.0, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: 10001, realMobile: true, sessionName: Home1, skipServerInstallation: true, statBarHeight: 63, systemPort: 8202, takesScreenshot: true, udid: 1af800102a057ece, uiautomator2ServerLaunchTimeout: 60000, version: , viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f4b9c0e43680685fa2c319d23a363ef94011c5d7
+*** Element info: {Using=id, value=com.accor.appli.hybrid.inhouse:id/destinationTextField}
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-24 16:23:19.582 BaseTest:194 - log path: logs/Android_Samsung Galaxy S9 Plus
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-24 16:23:19.590 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-24 16:23:19.592 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S9 Plus FATAL] 2022-01-24 16:23:21.437 BaseTest:249 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: [BROWSERSTACK_INVALID_OS_VERSION] OS version 7.0 is not supported for device samsung galaxy s9 plus. Supported OS versions for device samsung galaxy s9 plus are: 8.0, 9.0. To know more, refer to our capability builder - https://www.browserstack.com/app-automate/capabilities (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.20 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:bda1:81:824f:7f1a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:bda1:81:824f:7f1a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Samsung Galaxy S9 Plus ERROR] 2022-01-24 16:23:21.550 TestListener:40 - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.qa.BasePage.<init>(BasePage.java:44)
+	at com.qa.pages.PageConfiguration.<init>(PageConfiguration.java:18)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:90)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-24 16:24:05.797 BaseTest:194 - log path: logs/Android_Samsung Galaxy S9 Plus
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-24 16:24:05.803 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-24 16:24:05.808 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S9 Plus INFO ] 2022-01-24 16:24:49.040 BaseTest:247 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {64bit=false, acceptSslCert=false, acceptSslCerts=false, adbExecTimeout=120000, appActivity=com.accor.app.splashscreen.view.SplashScreenActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=uiautomator2, browserstack-tunnel=true, browserstack.appium_version=1.17.0, browserstack.is_hub_canary=false, browserstack.minOSVersion=5.0, buildName=New First Build, bundleID=com.accor.appli.hybrid.inhouse, bundleId=com.accor.appli.hybrid.inhouse, chromeOptions={w3c=false}, chromedriverPort=18080, chromedriverPorts=[[18100, 18110]], databaseEnabled=false, detected_language=selenium/3.141.59 (java mac), device=samsung galaxy s9 plus, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G965F, deviceName=1af5ed2824057ece, deviceScreenDensity=420, deviceScreenSize=1080x2220, deviceUDID=1af5ed2824057ece, enablePerformanceLogging=false, javascriptEnabled=true, locationContextEnabled=false, mobile={browser=mobile, version=Samsung Galaxy S9 Plus-9.0}, nativeWebScreenshot=true, networkConnectionEnabled=true, newCommandTimeout=0, new_bucketing=true, orig_os=android, osVersion=9.0, os_version=9.0, pixelRatio=2.625, platform=ANDROID, platformName=Android, platformVersion=9, projectName=10000, realMobile=true, sessionName=TNRTest, skipServerInstallation=true, statBarHeight=63, systemPort=8200, takesScreenshot=true, udid=1af5ed2824057ece, uiautomator2ServerLaunchTimeout=60000, version=, viewportRect={left=0, top=63, width=1080, height=2031}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung Galaxy S9 Plus ERROR] 2022-01-24 16:24:54.629 TestListener:40 - org.openqa.selenium.WebDriverException: Unable to communicate to node (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:bda1:81:824f:7f1a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: com.accor.app.splashscreen...., appPackage: com.accor.appli.hybrid.inhouse, automationName: uiautomator2, browserstack-tunnel: true, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 5.0, buildName: New First Build, bundleID: com.accor.appli.hybrid.inhouse, bundleId: com.accor.appli.hybrid.inhouse, chromeOptions: {w3c: false}, chromedriverPort: 18080, chromedriverPorts: [[18100, 18110]], databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: samsung galaxy s9 plus, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 1af5ed2824057ece, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: 1af5ed2824057ece, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Samsung Galaxy S9 Plus-9.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 9.0, os_version: 9.0, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: 10000, realMobile: true, sessionName: TNRTest, skipServerInstallation: true, statBarHeight: 63, systemPort: 8200, takesScreenshot: true, udid: 1af5ed2824057ece, uiautomator2ServerLaunchTimeout: 60000, version: , viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a6fbc8cb1e6cf51b2d9e061d9b57795bd9596f88
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.InteractsWithApps.launchApp(InteractsWithApps.java:50)
+	at com.qa.BaseTest.launchApp(BaseTest.java:265)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:94)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+

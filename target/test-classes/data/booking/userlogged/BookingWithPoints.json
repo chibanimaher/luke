@@ -1,0 +1,30 @@
+{
+
+  "en" : {
+    "destination" : "Paris",
+    "destinationiOS":"Paris",
+    "destination_country" : "France",
+    "dateIn" : "+3DAY",
+    "dateOut" : "+4DAY",
+    "dateFormat" : "dd/MM/yyyy",
+    "hotelName" : "SME - Novotel Paris Les Halles",
+    "adultCount" : "2",
+    "childrenCount" : "0",
+    "oldChildren1" : "1 year old",
+    "userEmail" : "walter.white@yopmail.com",
+    "userPassword" : "Password1",
+    "room.name":"Superior Room with one double bed and sofa",
+    "room.price":"€212,00",
+    "rewardsDiscount":"-€40,00",
+    "basketLabel":"SUM PAYABLE TO THE HOTEL",
+    "cardType" : "Visa",
+    "cardCVC" : "123",
+    "cardNumber" : "4111111111111111",
+    "cardHolderName" : "test",
+    "cardExpirationMonth" : "12",
+    "cardExpirationYear" : "2023",
+    "cardExpirationDate" : "12/22",
+    "reservationAdult" : "%s adult",
+    "reservationChildren" : "%s child"
+  }
+}

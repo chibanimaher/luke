@@ -1,0 +1,77 @@
+[logs/Android_Samsung Galaxy S8 Plus INFO ] 2022-01-17 10:23:21.876 BaseTest:214 - log path: logs/Android_Samsung Galaxy S8 Plus
+[logs/Android_Samsung Galaxy S8 Plus INFO ] 2022-01-17 10:23:21.895 BaseTest:221 - load config.properties
+[logs/Android_Samsung Galaxy S8 Plus INFO ] 2022-01-17 10:23:21.898 BaseTest:226 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S8 Plus INFO ] 2022-01-17 10:24:09.939 BaseTest:265 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {64bit=false, acceptSslCert=false, acceptSslCerts=false, adbExecTimeout=120000, appActivity=com.accor.app.splashscreen.view.SplashScreenActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=uiautomator2, browserstack.appium_version=1.17.0, browserstack.is_hub_canary=false, browserstack.minOSVersion=5.0, buildName=New Build, bundleID=com.accor.appli.hybrid.inhouse, bundleId=com.accor.appli.hybrid.inhouse, chromeOptions={w3c=false}, chromedriverPort=18084, chromedriverPorts=[[18144, 18154]], databaseEnabled=false, detected_language=selenium/3.141.59 (java mac), device=samsung galaxy s8 plus, deviceApiLevel=24, deviceManufacturer=samsung, deviceModel=SM-G955F, deviceName=ce031713d500802703, deviceScreenDensity=420, deviceScreenSize=1080x2220, deviceUDID=ce031713d500802703, enablePerformanceLogging=false, javascriptEnabled=true, locationContextEnabled=false, mobile={browser=mobile, version=Samsung Galaxy S8 Plus-7.0}, nativeWebScreenshot=true, networkConnectionEnabled=true, newCommandTimeout=0, new_bucketing=true, orig_os=android, osVersion=7.0, os_version=7.0, pixelRatio=2.625, platform=ANDROID, platformName=Android, platformVersion=7.0, projectName=10000, realMobile=true, sessionName=11001, skipServerInstallation=true, statBarHeight=63, systemPort=8204, takesScreenshot=true, udid=ce031713d500802703, uiautomator2ServerLaunchTimeout=60000, version=, viewportRect={left=0, top=63, width=1080, height=2031}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung Galaxy S8 Plus INFO ] 2022-01-17 10:26:25.666 BaseTest:125 - video path: videos/Android_null/2022-01-17-10-23-21/Confirmation/PaiementEnLigne.mp4
+[logs/Android_Samsung Galaxy S8 Plus ERROR] 2022-01-17 10:28:07.774 TestListener:40 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.accor.appli.hybrid.inhouse:id/destinationTextField (tried for 50 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndClick(BasePage.java:48)
+	at com.qa.pages.PageTestConfirmation.paiementEnLigne(PageTestConfirmation.java:84)
+	at com.qa.tests.Confirmation.PaiementEnLigne(Confirmation.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:507:9d5a:694f:85de%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: com.accor.app.splashscreen...., appPackage: com.accor.appli.hybrid.inhouse, automationName: uiautomator2, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 5.0, buildName: New Build, bundleID: com.accor.appli.hybrid.inhouse, bundleId: com.accor.appli.hybrid.inhouse, chromeOptions: {w3c: false}, chromedriverPort: 18084, chromedriverPorts: [[18144, 18154]], databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: samsung galaxy s8 plus, deviceApiLevel: 24, deviceManufacturer: samsung, deviceModel: SM-G955F, deviceName: ce031713d500802703, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: ce031713d500802703, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Samsung Galaxy S8 Plus-7.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 7.0, os_version: 7.0, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 7.0, projectName: 10000, realMobile: true, sessionName: 11001, skipServerInstallation: true, statBarHeight: 63, systemPort: 8204, takesScreenshot: true, udid: ce031713d500802703, uiautomator2ServerLaunchTimeout: 60000, version: , viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 710f1a9b89affe3131fe79eb6b8c55b9b23f7f0b
+*** Element info: {Using=id, value=com.accor.appli.hybrid.inhouse:id/destinationTextField}
+	at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+
+[logs/Android_Samsung Galaxy S8 Plus INFO ] 2022-01-17 10:28:35.393 BaseTest:125 - video path: videos/Android_null/2022-01-17-10-23-21/Confirmation/PaiementEnLigne.mp4

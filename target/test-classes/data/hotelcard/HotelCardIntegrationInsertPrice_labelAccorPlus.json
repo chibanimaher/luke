@@ -1,0 +1,19 @@
+{
+	"en": {
+		"destination": "Paris",
+		"destinationiOS":"ibis Paris Montmartre 18",
+		"hotelNameIos":"ibis Paris Montmartre 18",
+		"destination_country":"France",
+		"hotelName" : "GDP Hotel Royal Saint Honore Paris Louvre",
+		"status_AccorPlus" : "Accor Plus rate from €27",
+		"dateIn": "+1DAY",
+		"dateOut": "+2DAY",
+		"dateFormat":"dd/MM/yyyy",
+		"adultCount":"1",
+		"childrenCount":"1",
+		"oldChildren1":"1 year old",
+		"userEmail": "recnabd6.020819@yopmail.com",
+		"userPassword": "Passwd11$"
+			
+}
+}

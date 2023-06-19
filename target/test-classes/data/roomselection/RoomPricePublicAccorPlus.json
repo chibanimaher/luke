@@ -1,0 +1,26 @@
+{
+	"en": {
+		"destination": "GDP Hotel Royal Saint Honore Paris Louvre",
+		"destinationiOS":"GDP Hotel Royal Saint Honore Paris Louvre",
+		"destination_country":"France",
+		"dateIn": "+1DAY",
+		"dateOut": "+2DAY",
+		"dateFormat":"dd/MM/yyyy",
+		"adultCount":"1",
+		"childrenCount":"1",
+		"oldChildren1":"1 year old",
+		"statusInfo":"With your Stay Plus",
+		"hotelName":"RSA Pullman Putrajaya Lakeside",
+		"email": "mno2018@yopmail.com",
+		"userPassword": "Passwd1!",
+		"userEmail":"mno2018@yopmail.com",
+		"phoneNumber":"0751221273",
+		"cardCVC":"123",
+		"guestCountry":"France",
+		"guestNationality": "French",
+		"guestMobileCountry": "France",
+		"guestPhoneNumber": "762719111"
+
+		
+}
+}

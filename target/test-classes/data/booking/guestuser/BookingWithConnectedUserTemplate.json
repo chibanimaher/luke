@@ -1,0 +1,22 @@
+{
+	"en": {
+		"destination": "Paris",
+		"destination_country":"France",
+		"hotelName": "",
+		"roomName": "",
+		"dateIn": "+1DAY",
+		"dateOut": "+2DAY",
+		"dateFormat":"dd/MM/yyyy",
+		"userEmail": "hafed@gmail",
+		"userPassword": "yyyyyy",
+		"cardType": "Visa",
+		"cardCVC": "123",
+		"cardNumber": "4111111111111111",
+		"cardHolderName": "Payment",
+		"cardExpirationMonth": "12",
+		"cardExpirationYear": "23",
+		"cardExpirationYearIOS": "2023"
+
+		
+}
+}

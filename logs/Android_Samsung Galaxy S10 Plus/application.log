@@ -1,0 +1,414 @@
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 10:47:23.973 BaseTest:194 - log path: logs/Android_Samsung Galaxy S10 Plus
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 10:47:23.986 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 10:47:23.989 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 10:47:59.981 BaseTest:248 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {64bit=false, acceptSslCert=false, acceptSslCerts=false, adbExecTimeout=120000, appActivity=com.accor.app.splashscreen.view.SplashScreenActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=uiautomator2, browserstack-tunnel=true, browserstack.appium_version=1.17.0, browserstack.is_hub_canary=false, browserstack.minOSVersion=5.0, buildName=New Build, bundleID=com.accor.appli.hybrid.inhouse, bundleId=com.accor.appli.hybrid.inhouse, chromeOptions={w3c=false}, chromedriverPort=18082, chromedriverPorts=[[18122, 18132]], databaseEnabled=false, detected_language=selenium/3.141.59 (java mac), device=samsung galaxy s10 plus, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M161VE6A, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M161VE6A, disable_usage_reporting=true, enablePerformanceLogging=false, javascriptEnabled=true, locationContextEnabled=false, mobile={browser=mobile, version=Samsung Galaxy S10 Plus-9.0}, nativeWebScreenshot=true, networkConnectionEnabled=true, newCommandTimeout=0, new_bucketing=true, orig_os=android, osVersion=9.0, os_version=9.0, pixelRatio=2.625, platform=ANDROID, platformName=Android, platformVersion=9, projectName=10000, realMobile=true, sessionName=AccountTest, skipServerInstallation=true, statBarHeight=110, systemPort=8202, takesScreenshot=true, udid=R58M161VE6A, uiautomator2ServerLaunchTimeout=60000, version=, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 10:50:12.111 BaseTest:194 - log path: logs/Android_Samsung Galaxy S10 Plus
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 10:50:12.120 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 10:50:12.124 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 10:50:49.783 BaseTest:248 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {64bit=false, acceptSslCert=false, acceptSslCerts=false, adbExecTimeout=120000, appActivity=com.accor.app.splashscreen.view.SplashScreenActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=uiautomator2, browserstack-tunnel=true, browserstack.appium_version=1.17.0, browserstack.is_hub_canary=false, browserstack.minOSVersion=5.0, buildName=New Build, bundleID=com.accor.appli.hybrid.inhouse, bundleId=com.accor.appli.hybrid.inhouse, chromeOptions={w3c=false}, chromedriverPort=18083, chromedriverPorts=[[18133, 18143]], databaseEnabled=false, detected_language=selenium/3.141.59 (java mac), device=samsung galaxy s10 plus, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M15RMDQJ, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M15RMDQJ, disable_usage_reporting=true, enablePerformanceLogging=false, javascriptEnabled=true, locationContextEnabled=false, mobile={browser=mobile, version=Samsung Galaxy S10 Plus-9.0}, nativeWebScreenshot=true, networkConnectionEnabled=true, newCommandTimeout=0, new_bucketing=true, orig_os=android, osVersion=9.0, os_version=9.0, pixelRatio=2.625, platform=ANDROID, platformName=Android, platformVersion=9, projectName=10000, realMobile=true, sessionName=AccountTest, skipServerInstallation=true, statBarHeight=110, systemPort=8203, takesScreenshot=true, udid=R58M15RMDQJ, uiautomator2ServerLaunchTimeout=60000, version=, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 11:07:49.982 BaseTest:194 - log path: logs/Android_Samsung Galaxy S10 Plus
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 11:07:49.987 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 11:07:49.990 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 11:08:27.674 BaseTest:248 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {64bit=false, acceptSslCert=false, acceptSslCerts=false, adbExecTimeout=120000, appActivity=com.accor.app.splashscreen.view.SplashScreenActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=uiautomator2, browserstack-tunnel=true, browserstack.appium_version=1.17.0, browserstack.is_hub_canary=false, browserstack.minOSVersion=5.0, buildName=New Build, bundleID=com.accor.appli.hybrid.inhouse, bundleId=com.accor.appli.hybrid.inhouse, chromeOptions={w3c=false}, chromedriverPort=18083, chromedriverPorts=[[18133, 18143]], databaseEnabled=false, detected_language=selenium/3.141.59 (java mac), device=samsung galaxy s10 plus, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M15RMDQJ, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M15RMDQJ, disable_usage_reporting=true, enablePerformanceLogging=false, javascriptEnabled=true, locationContextEnabled=false, mobile={browser=mobile, version=Samsung Galaxy S10 Plus-9.0}, nativeWebScreenshot=true, networkConnectionEnabled=true, newCommandTimeout=0, new_bucketing=true, orig_os=android, osVersion=9.0, os_version=9.0, pixelRatio=2.625, platform=ANDROID, platformName=Android, platformVersion=9, projectName=10000, realMobile=true, sessionName=AccountTest, skipServerInstallation=true, statBarHeight=110, systemPort=8203, takesScreenshot=true, udid=R58M15RMDQJ, uiautomator2ServerLaunchTimeout=60000, version=, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 11:15:21.304 BaseTest:194 - log path: logs/Android_Samsung Galaxy S10 Plus
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 11:15:21.313 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 11:15:21.318 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-01-27 11:15:57.167 BaseTest:248 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {64bit=false, acceptSslCert=false, acceptSslCerts=false, adbExecTimeout=120000, appActivity=com.accor.app.splashscreen.view.SplashScreenActivity, appPackage=com.accor.appli.hybrid.inhouse, automationName=uiautomator2, browserstack-tunnel=true, browserstack.appium_version=1.17.0, browserstack.is_hub_canary=false, browserstack.minOSVersion=5.0, buildName=New Build, bundleID=com.accor.appli.hybrid.inhouse, bundleId=com.accor.appli.hybrid.inhouse, chromeOptions={w3c=false}, chromedriverPort=18081, chromedriverPorts=[[18111, 18121]], databaseEnabled=false, detected_language=selenium/3.141.59 (java mac), device=samsung galaxy s10 plus, deviceApiLevel=28, deviceManufacturer=samsung, deviceModel=SM-G975F, deviceName=R58M4131J8E, deviceScreenDensity=420, deviceScreenSize=1080x2280, deviceUDID=R58M4131J8E, disable_usage_reporting=true, enablePerformanceLogging=false, javascriptEnabled=true, locationContextEnabled=false, mobile={browser=mobile, version=Samsung Galaxy S10 Plus-9.0}, nativeWebScreenshot=true, networkConnectionEnabled=true, newCommandTimeout=0, new_bucketing=true, orig_os=android, osVersion=9.0, os_version=9.0, pixelRatio=2.625, platform=ANDROID, platformName=Android, platformVersion=9, projectName=10000, realMobile=true, sessionName=AccountTest, skipServerInstallation=true, statBarHeight=110, systemPort=8201, takesScreenshot=true, udid=R58M4131J8E, uiautomator2ServerLaunchTimeout=60000, version=, viewportRect={left=0, top=110, width=1080, height=1937}, warnings={}, webStorageEnabled=false}
+[logs/Android_Samsung Galaxy S10 Plus ERROR] 2022-01-27 11:18:02.892 TestListener:40 - java.lang.AssertionError: expected [USD] but found [$41]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at com.qa.BasePage.assertEqualsContains(BasePage.java:125)
+	at com.qa.pages.PagePayement.verifyDevise(PagePayement.java:116)
+	at com.qa.pages.PageTestAccount.changeCurrency(PageTestAccount.java:248)
+	at com.qa.tests.Account.DashbordChangeCurrency(Account.java:117)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[logs/Android_Samsung Galaxy S10 Plus ERROR] 2022-01-27 11:37:01.531 TestListener:40 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: com.accor.appli.hybrid.inhouse:id/bookingNbNightsTextView (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BasePage.waitAndFindElement(BasePage.java:102)
+	at com.qa.BasePage.getText(BasePage.java:106)
+	at com.qa.pages.PageHome.detailsreservation(PageHome.java:77)
+	at com.qa.pages.PageTestAccount.staysDetails(PageTestAccount.java:319)
+	at com.qa.tests.Account.ScreenDisplayInMyStayDetails(Account.java:158)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-de-maher', ip: '2001:861:4680:c360:2082:21b0:fd88:bcc6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: com.accor.app.splashscreen...., appPackage: com.accor.appli.hybrid.inhouse, automationName: uiautomator2, browserstack-tunnel: true, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 5.0, buildName: New Build, bundleID: com.accor.appli.hybrid.inhouse, bundleId: com.accor.appli.hybrid.inhouse, chromeOptions: {w3c: false}, chromedriverPort: 18081, chromedriverPorts: [[18111, 18121]], databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: samsung galaxy s10 plus, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G975F, deviceName: R58M4131J8E, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R58M4131J8E, disable_usage_reporting: true, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Samsung Galaxy S10 Plus-9.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 9.0, os_version: 9.0, pixelRatio: 2.625, platform: ANDROID, platformName: Android, platformVersion: 9, projectName: 10000, realMobile: true, sessionName: AccountTest, skipServerInstallation: true, statBarHeight: 110, systemPort: 8201, takesScreenshot: true, udid: R58M4131J8E, uiautomator2ServerLaunchTimeout: 60000, version: , viewportRect: {height: 1937, left: 0, top: 110, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 9fb2a33db9af0715182b7ed33222afbf300e4521
+*** Element info: {Using=id, value=com.accor.appli.hybrid.inhouse:id/bookingNbNightsTextView}
+	at jdk.internal.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 14:35:09.738 BaseTest:194 - log path: logs/Android_Samsung Galaxy S10 Plus
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 14:35:09.746 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 14:35:09.754 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S10 Plus FATAL] 2022-06-20 14:35:10.542 BaseTest:250 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: hub-cloud.browserstack.com: nodename nor servname provided, or not known
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Samsung Galaxy S10 Plus ERROR] 2022-06-20 14:35:10.623 TestListener:40 - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.qa.BasePage.<init>(BasePage.java:44)
+	at com.qa.pages.PageConfiguration.<init>(PageConfiguration.java:18)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:90)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 14:55:42.509 BaseTest:194 - log path: logs/Android_Samsung Galaxy S10 Plus
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 14:55:42.515 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 14:55:42.518 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S10 Plus FATAL] 2022-06-20 14:55:44.121 BaseTest:250 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: [browserstack.local] is set to true but local testing through BrowserStack is not connected. To resolve the issue or to get more info visit - https://www.browserstack.com/question/779 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.12 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Samsung Galaxy S10 Plus ERROR] 2022-06-20 14:55:44.168 TestListener:40 - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.qa.BasePage.<init>(BasePage.java:44)
+	at com.qa.pages.PageConfiguration.<init>(PageConfiguration.java:18)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:90)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:05:09.043 BaseTest:194 - log path: logs/Android_Samsung Galaxy S10 Plus
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:05:09.050 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:05:09.054 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S10 Plus FATAL] 2022-06-20 15:05:11.155 BaseTest:250 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: [browserstack.local] is set to true but local testing through BrowserStack is not connected. To resolve the issue or to get more info visit - https://www.browserstack.com/question/779 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.59 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Samsung Galaxy S10 Plus ERROR] 2022-06-20 15:05:11.199 TestListener:40 - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.qa.BasePage.<init>(BasePage.java:44)
+	at com.qa.pages.PageConfiguration.<init>(PageConfiguration.java:18)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:90)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:12:05.877 BaseTest:194 - log path: logs/Android_Samsung Galaxy S10 Plus
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:12:05.884 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:12:05.887 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S10 Plus FATAL] 2022-06-20 15:12:07.491 BaseTest:250 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: [browserstack.local] is set to true but local testing through BrowserStack is not connected. To resolve the issue or to get more info visit - https://www.browserstack.com/question/779 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.11 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Samsung Galaxy S10 Plus ERROR] 2022-06-20 15:12:07.541 TestListener:40 - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.qa.BasePage.<init>(BasePage.java:44)
+	at com.qa.pages.PageConfiguration.<init>(PageConfiguration.java:18)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:90)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:12:38.203 BaseTest:194 - log path: logs/Android_Samsung Galaxy S10 Plus
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:12:38.211 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:12:38.216 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S10 Plus FATAL] 2022-06-20 15:12:39.754 BaseTest:250 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: [browserstack.local] is set to true but local testing through BrowserStack is not connected. To resolve the issue or to get more info visit - https://www.browserstack.com/question/779 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.08 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Samsung Galaxy S10 Plus ERROR] 2022-06-20 15:12:39.793 TestListener:40 - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.qa.BasePage.<init>(BasePage.java:44)
+	at com.qa.pages.PageConfiguration.<init>(PageConfiguration.java:18)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:90)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:13:36.793 BaseTest:194 - log path: logs/Android_Samsung Galaxy S10 Plus
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:13:36.801 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:13:36.804 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S10 Plus FATAL] 2022-06-20 15:13:38.535 BaseTest:250 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: [browserstack.local] is set to true but local testing through BrowserStack is not connected. To resolve the issue or to get more info visit - https://www.browserstack.com/question/779 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.27 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Samsung Galaxy S10 Plus ERROR] 2022-06-20 15:13:38.576 TestListener:40 - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.qa.BasePage.<init>(BasePage.java:44)
+	at com.qa.pages.PageConfiguration.<init>(PageConfiguration.java:18)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:90)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:14:28.732 BaseTest:194 - log path: logs/Android_Samsung Galaxy S10 Plus
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:14:28.738 BaseTest:201 - load config.properties
+[logs/Android_Samsung Galaxy S10 Plus INFO ] 2022-06-20 15:14:28.742 BaseTest:206 - load strings/strings.xml
+[logs/Android_Samsung Galaxy S10 Plus FATAL] 2022-06-20 15:14:31.802 BaseTest:250 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: [browserstack.local] is set to true but local testing through BrowserStack is not connected. To resolve the issue or to get more info visit - https://www.browserstack.com/question/779 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.52 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-maher.local', ip: 'fe80:0:0:0:ca7:8622:d590:88ac%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Samsung Galaxy S10 Plus ERROR] 2022-06-20 15:14:31.845 TestListener:40 - java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.qa.BasePage.<init>(BasePage.java:44)
+	at com.qa.pages.PageConfiguration.<init>(PageConfiguration.java:18)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:90)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:712)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:538)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+

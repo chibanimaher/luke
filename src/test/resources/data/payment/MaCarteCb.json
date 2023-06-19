@@ -1,0 +1,15 @@
+{
+	"en": {
+		"destination": "Paris",
+		"cardType": "Visa",
+		"cardCVC": "123",
+		"cardNumber": "5017679200900505",
+		"cardHolderName": "Payment",
+		"cardExpiration": "12/23",
+		"cardExpirationMonth": "12",
+		"cardExpirationYear": "23",
+		"cardExpirationYearIOS": "2023",
+		"userEmail": "qa_classic@yopmail.com ",
+		"userPassword": "Password1"
+}
+}

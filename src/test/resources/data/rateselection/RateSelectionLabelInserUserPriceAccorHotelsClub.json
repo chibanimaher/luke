@@ -1,0 +1,17 @@
+{
+	"en": {
+		"destination": "Marseille",
+		"destinationiOS":"Marseille",
+		"destination_country":"France",
+		"dateIn": "+1DAY",
+		"dateOut": "+2DAY",
+		"dateFormat":"dd/MM/yyyy",
+		"adultCount":"1",
+		"childrenCount":"1",
+		"oldChildren1":"1 year old",
+		"userEmail": "jdd54@yopmail.com",
+		"userPassword": "passwd1"
+
+		
+}
+}

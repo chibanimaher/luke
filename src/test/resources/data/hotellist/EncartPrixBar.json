@@ -1,0 +1,15 @@
+{
+	"en": {
+		"destination": "Paris",
+		"destinationiOS":"Paris",
+		"destination_country":"France",
+		"dateIn": "+1DAY",
+		"dateOut": "+2DAY",
+		"dateFormat":"dd/MM/yyyy",
+		"adultCount":"1",
+		"childrenCount":"1",
+		"oldChildren1":"1 year old",
+		"userEmail": "qa_classic@yopmail.com",
+		"userPassword": "Password1"
+}
+}

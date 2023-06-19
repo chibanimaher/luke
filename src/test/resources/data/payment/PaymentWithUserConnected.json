@@ -1,0 +1,32 @@
+{
+
+  "en" : {
+    "destination" : "Poissy",
+    "destinationiOS":"Poissy",
+    "destination_country" : "France",
+    "dateIn" : "+3DAY",
+    "dateOut" : "+4DAY",
+    "dateFormat" : "dd/MM/yyyy",
+    "hotelName" : "Novotel Poissy Orgeval - Tests monétiques",
+    "adultCount" : "1",
+    "childrenCount" : "0",
+    "oldChildren1" : "1 year old",
+    "Email" : "jhon.smith1@yopmail.com",
+    "Password" : "Password1",
+    "userEmail" : "mno2018@yopmail.com",
+    "userPassword" : "Passwd1!",
+    "room.name":"Superior Room with one double bed and sofa",
+    "room.price":"€120,00",
+    "rewardsDiscount":"-€40,00",
+    "basketLabel":"SUM PAYABLE TO THE HOTEL",
+    "cardType" : "Visa",
+    "cardCVC" : "123",
+    "cardNumber" : "4111111111111111",
+    "cardHolderName" : "test",
+    "cardExpirationMonth" : "12",
+    "cardExpirationYear" : "2023",
+    "cardExpirationDate" : "12/22",
+    "reservationAdult" : "%s adult",
+    "reservationChildren" : "%s child"
+  }
+}

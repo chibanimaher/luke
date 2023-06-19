@@ -1,0 +1,14 @@
+{
+	"en": {
+		"destination": "SME - Novotel Paris Les Halles ",
+		"destinationiOS":"SME - Novotel Paris Les Halles ",
+		"destination_country":"France",
+		"dateIn": "+1DAY",
+		"dateOut": "+2DAY",
+		"dateFormat":"dd/MM/yyyy",
+		"userEmail": "usertesta2@yopmail.com",
+		"userPassword": "Password1"
+
+		
+}
+}

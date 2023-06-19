@@ -1,0 +1,33 @@
+{
+
+  "en" : {
+    "destination" : "Prague",
+    "destinationiOS":"Prague",
+    "destination_country" : "Prague",
+    "dateIn" : "+3DAY",
+    "dateOut" : "+4DAY",
+    "dateFormat" : "dd/MM/yyyy",
+    "hotelName" : "GMA - ibis Praha Wenceslas Square",
+    "adultCount" : "1",
+    "childrenCount" : "0",
+    "oldChildren1" : "1 year old",
+    "userEmail" : "mno2018@yopmail.com",
+    "userPassword" : "Passwd1!",
+    "homeAdress": "street",
+    "postcode":"95879",
+    "city":"paris",
+    "room.name":"Classic room with 1 double or 2 single beds",
+    "room.price":"€75,23",
+    "rewardsDiscount":"-€30,09",
+    "basketLabel":"SUM PAYABLE TO THE HOTEL",
+    "cardType" : "Visa",
+    "cardCVC" : "123",
+    "cardNumber" : "4111111111111111",
+    "cardHolderName" : "test",
+    "cardExpirationMonth" : "12",
+    "cardExpirationYear" : "2023",
+    "cardExpirationDate" : "12/22",
+    "reservationAdult" : "%s adult",
+    "reservationChildren" : "%s child"
+  }
+}

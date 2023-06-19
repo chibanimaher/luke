@@ -1,0 +1,16 @@
+{
+	"en": {
+		"destination": "Malaysia",
+		"destinationiOS":"Malaysia",
+		"destination_country":"France",
+		"dateIn": "+1DAY",
+		"dateOut": "+2DAY",
+		"dateFormat":"dd/MM/yyyy",
+		"statusInfo":"With your Stay Plus",
+		"from":"From",
+		"hotelName":"RSA Pullman Putrajaya Lakeside",
+		"userEmail": "mno2018@yopmail.com",
+		"userPassword": "Passwd1!"
+		
+}
+}

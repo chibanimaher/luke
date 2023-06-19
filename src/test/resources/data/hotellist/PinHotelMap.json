@@ -1,0 +1,21 @@
+{
+	"en": {
+		"destination": "Marseille",
+		"destinationiOS":"Marseille",
+		"publicrate":"Public rate",
+		"destination_country":"France",
+		"dateIn": "+1DAY",
+		"dateOut": "+2DAY",
+		"dateFormat":"dd/MM/yyyy",
+		"adultCount":"1",
+		"childrenCount":"1",
+		"oldChildren1":"1 year old",
+		"userEmail": "qa_classic@yopmail.com",
+		"userPassword": "Password1",
+		"statusBusinessPlus":"Business Plus from",
+		"statusBusinessPlus1":"Business Plus",
+		"statusBusinessPlus2": "Business Plus from €350"
+
+		
+}
+}

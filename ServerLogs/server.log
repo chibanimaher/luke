@@ -1,0 +1,5 @@
+2022-06-20 13:14:29:317 [Appium] Welcome to Appium v1.22.2
+2022-06-20 13:14:29:318 [Appium] Non-default server args:
+2022-06-20 13:14:29:318 [Appium]   sessionOverride: true
+2022-06-20 13:14:29:318 [Appium]   logFile: /Users/maher/Desktop/SocleAutomation/App_functional_test/ServerLogs/server.log
+2022-06-20 13:14:29:347 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.

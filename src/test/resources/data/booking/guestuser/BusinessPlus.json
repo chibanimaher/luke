@@ -1,0 +1,24 @@
+{
+	"en": {
+		"destination": "london",
+		"destinationiOS":"london",
+		"dateIn": "+1DAY",
+		"dateOut": "+2DAY",
+		"dateFormat":"dd/MM/yyyy",
+		"adultCount":"1",
+		"childrenCount":"1",
+		"oldChildren1":"1 year old",
+		"guestTitle": "Title",
+		"adultNumber":"4 adults",
+		"childrenNumber":"0 children",
+		"userEmail": "recnabbplus24112001@yopmail.com",
+		"userPassword": "Passwd123",
+		"listReason":"Leisure",
+		"nationality": "French",
+		"mobileCountry": "France",
+		"phoneNumber": "762719111",
+		"businessText":"BUSINESS PLUS - FLEXIBLE RATE"
+
+		
+}
+}

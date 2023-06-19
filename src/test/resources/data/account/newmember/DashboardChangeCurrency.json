@@ -1,0 +1,19 @@
+{
+    "en": {
+        
+        "userEmail":"qa_classic@yopmail.com",
+        "userPassword":"Password1",
+        "currency":"US Dollar",
+        "destination":"Paris",
+        "currencyPrice":"US",
+         "phoneNumber":"0751221266",
+         "currencyBooking":"USD",
+         "changecurrency":"Change currency",
+         "guest":"CONTINUE AS A GUEST",
+         "selectRate":"SELECT THIS RATE",
+         "guestCountryRegion":"France"
+        
+         
+        
+}
+}
